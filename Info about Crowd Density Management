@@ -1,0 +1,20 @@
+Abstract:
+Innovative strategy to proximal analysis and safety via smart sensing and deep learning. Integration of cloud-based processing, automated alerts. 
+Accurate prediction of human distances for heightened safety measures. Real-time alerts and signage ensure immediate compliance. Data analytics offer insights for informed decision-making. 
+Showcases technology's potential for safety enhancement across diverse environments.
+
+Proposed System:
+Develop a smart sensing system to monitor real-time human proximity, detect social distancing violations using an intelligent algorithm, and generate graphical insights for intervention. 
+Ensure privacy compliance, scalable deployment, and an intuitive user interface for effective public health management in various environments.
+
+YOLO V3 architecture:
+In this project we are using YOLOv3 architecture with pre-trained weights.
+In YOLOv3 architecture there are following layers:
+Input layer
+53 convolution layers
+3 Detection layers
+Output layer
+Input layer takes the preprocessed image frame
+In 53 conv layers they used leaky ReLU activation function
+The 3 detection layers which are responsible for predicting bounding boxes, objectness scores and class probabilities respectively
+Finally the output layer gives the bounding boxes, probability and class as output
